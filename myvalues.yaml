@@ -6,4 +6,4 @@ persistence:
     giteaSize: 10Gi
     postgresSize: 5Gi
     storageClass: gp2
-    accessMode: ReadWriteMany
+    accessMode: ReadWriteOnce
