@@ -1,1 +1,4 @@
 
+# valid types: postgres, mysql, mssql, sqllite
+dbType: "sqlite"
+useInPodPostgres: false
