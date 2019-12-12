@@ -1,4 +1,9 @@
 
-# valid types: postgres, mysql, mssql, sqllite
-dbType: "sqlite"
-useInPodPostgres: false
+persistence:
+    enabled: true
+    #existingGiteaClaim: gitea-gitea
+    #existingPostgresClaim: gitea-postgres
+    giteaSize: 10Gi
+    postgresSize: 5Gi
+    #storageClass: glusterfs
+    accessMode: ReadWriteMany
