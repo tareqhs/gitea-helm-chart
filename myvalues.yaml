@@ -5,5 +5,5 @@ persistence:
     #existingPostgresClaim: gitea-postgres
     giteaSize: 10Gi
     postgresSize: 5Gi
-    storageClass: glusterfs
+    storageClass: gp2
     accessMode: ReadWriteMany
